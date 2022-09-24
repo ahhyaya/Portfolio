@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+    font-family: cursive;
     font-size: 2rem;
     margin-bottom: 10px;
 }
@@ -19,9 +20,9 @@ header {
 }
 
 nav {
-
+    display: flex;
 }
 
 nav a {
-
+    padding: 14px 20px;
 }
