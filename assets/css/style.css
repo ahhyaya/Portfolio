@@ -1,6 +1,7 @@
 :root {
     --backgroud-color: #e6d6bd;
-    --hightlight-color:#fbe2e2c3
+    --hightlight-color: #fbe2e2c3;
+    --header-background: #e6d6bd;
 }
 
 body {
@@ -16,7 +17,8 @@ h1 {
 header {
     padding :40px;
     background: var();
-    color:rgb(103, 12, 188);
+    /* color:rgb(103, 12, 188); */
+    color:var(--header-background);
     text-align: center;
     width: 100%;
     text-shadow: 5px 5px 10px rgb(10, 11, 9);
@@ -32,6 +34,12 @@ nav {
 }
 
 nav a {
-    padding: 14px 20px;
-    
+    color: var(--header-background);
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-inline: 15px;
+    text-decoration: none;
+    text-align: auto;
+    margin-bottom: 2px;
+    display: flex;
 }
