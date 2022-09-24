@@ -19,7 +19,7 @@ header {
     color:rgb(103, 12, 188);
     text-align: center;
     width: 100%;
-    
+    text-shadow: 5px 5px 10px rgb(10, 11, 9);
 }
 
 nav {
