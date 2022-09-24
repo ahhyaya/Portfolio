@@ -43,3 +43,9 @@ nav a {
     margin-bottom: 2px;
     display: flex;
 }
+
+.navbar {
+    display: block;
+    position: relative;
+    cursor: pointer;
+  }
