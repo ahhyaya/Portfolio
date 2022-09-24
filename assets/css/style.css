@@ -3,7 +3,7 @@
 }
 
 body {
-
+    
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 }
 
 header {
-
+    padding :40px;
 }
 
 nav {
@@ -19,5 +19,5 @@ nav {
 }
 
 nav a {
-    
+
 }
