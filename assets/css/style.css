@@ -24,10 +24,11 @@ header {
 
 nav {
     display: flex;
-    position: fixed;
-    right: 0;
-    background-color: var(--hightlight-color);
-    
+    background-color: #d8a47f;
+    border-radius: 15px 0 15px 0;
+    width: 50%;
+    margin-top: 15px;
+    margin-inline: auto;
 }
 
 nav a {
