@@ -17,12 +17,16 @@ header {
     background: var(--backgroud-color);
     color:rgb(103, 12, 188);
     text-align: center;
+    width: 100%;
 }
 
 nav {
     display: flex;
+    position: fixed;
+    right: 0;
 }
 
 nav a {
     padding: 14px 20px;
+    
 }
