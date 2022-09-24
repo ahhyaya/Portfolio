@@ -45,7 +45,40 @@ nav a {
 }
 
 .navbar {
-    display: block;
+    display: inline-block;
     position: relative;
     cursor: pointer;
+    border: none;
   }
+
+.navbar-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.navbar-dropdown a{
+    min-width: 100%;
+    padding: 15px 0;
+    position: absolute;
+    z-index: 100;
+    transition:
+      0.5s padding,
+      0.5s background;
+      color:var(--header-color);
+      text-align: center;
+}
+
+.navbar-dropdown a:hover {
+    /* background-color: var(--hightlight-color); */
+}
+
+.dropdownnav:hover .navbar-dropdown {
+    display: block;
+}
+
+.dropdownnav:hover .navbar {
+    /* background-color: var(--backgroud-color); */
+}
