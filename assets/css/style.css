@@ -1,5 +1,6 @@
 :root {
-    --backgroud-color: #fbe2e2c3;
+    --backgroud-color: #e6d6bd;
+    --hightlight-color:#fbe2e2c3
 }
 
 body {
@@ -14,16 +15,19 @@ h1 {
 
 header {
     padding :40px;
-    background: var(--backgroud-color);
+    background: var();
     color:rgb(103, 12, 188);
     text-align: center;
     width: 100%;
+    
 }
 
 nav {
     display: flex;
     position: fixed;
     right: 0;
+    background-color: var(--hightlight-color);
+    
 }
 
 nav a {
