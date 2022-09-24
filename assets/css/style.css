@@ -1,5 +1,5 @@
 :root {
-    --backgroud-color: #b9c6ae;
+    --backgroud-color: #fbe2e2c3;
 }
 
 body {
@@ -12,6 +12,7 @@ h1 {
 
 header {
     padding :40px;
+    background: var(--backgroud-color);
 }
 
 nav {
