@@ -13,6 +13,7 @@ h1 {
 header {
     padding :40px;
     background: var(--backgroud-color);
+    color:rgb(103, 12, 188);
 }
 
 nav {
