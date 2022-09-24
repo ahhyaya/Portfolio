@@ -14,6 +14,7 @@ header {
     padding :40px;
     background: var(--backgroud-color);
     color:rgb(103, 12, 188);
+    text-align: center;
 }
 
 nav {
