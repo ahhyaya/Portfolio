@@ -574,5 +574,7 @@ main {
     .item {
         padding: 10px;
         border: 1px dotted black;
+        color:var(--header-color);
+        font-family: fantasy;
     }
  
