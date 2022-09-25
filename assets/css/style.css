@@ -618,6 +618,8 @@ main {
         text-shadow: 8px -5px 4px  rgb(182, 182, 182);
         height:20vh;
         flex: 0 0 47%;
+        max-width: 100%;
+        max-height: 100%;
     }
 
     /* project box change larger when hovering */
@@ -658,6 +660,9 @@ img{
     margin-left: 40px;
     margin-top: 5px;
     width:60%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     }
          
 
