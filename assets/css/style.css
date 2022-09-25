@@ -1,6 +1,6 @@
 :root {
     --backgroud-color: #e6d6bd;
-    --hightlight-color: #fbe2e2c3;
+    --hightlight-color: ##d8a47f;
     --header-background: #e6d6bd;
     --header-color: rgb(58, 42, 145);
     --lightbackground-color: rgb(240, 240, 223);
@@ -200,7 +200,7 @@ nav {
     background-color: #d8a47f;
     border-radius: 15px 0 15px 0;
     width: 50%;
-    /* margin-top: 15px; */
+    margin-top: 22px;
     margin-inline: auto;
 }
 
