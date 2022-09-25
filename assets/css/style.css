@@ -6,6 +6,15 @@
     --lightbackground-color: rgb(240, 240, 223);
 }
 
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--lightbackgroud-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--hightlight-color);
+}
 
 h1 {
     font-family: cursive;
@@ -252,15 +261,7 @@ nav a:hover {
     background-color: var(--backgroud-color);
 } */
 
-body {
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    background-color: var(--lightbackgroud-color);
-    font-family: 'Roboto', sans-serif;
-    color: var(--hightlight-color);
-}
+
 
 .area{
     background: var(--header-backgroud);  
@@ -382,3 +383,49 @@ body {
     }
 
 }
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .products {
+    flex: 1;
+    background-color: var(--alternate-color);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    border-style:dashed;
+    border-width: 1px;
+    border-radius: var(--standard-border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    transform: rotate(8deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+  
+  .card > header {
+    border-radius: var(--standard-border-radius) var(--standard-border-radius) 0px 0px;
+    padding: 20px;
+  }
+  
+  .card > p {
+    text-align: center;
+  }
+  
+  .card > img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
