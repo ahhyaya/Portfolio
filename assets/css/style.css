@@ -269,6 +269,8 @@ nav a:hover {
     width: 100%;
  } */
 
+ /* background effect */
+
 .circles{
     position: absolute;
     top: 0;
@@ -422,7 +424,7 @@ main {
   }  */
 
 
-  /* boxes */
+  /* main body structure */
   .category {
     flex: 1;
     background-color: var(--alternate-color);
@@ -513,7 +515,7 @@ main {
     }
   }
 
-  .container {
+  /* .container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     height: 60%;
@@ -525,7 +527,10 @@ main {
  .flex-container {
     display: flex;
     flex-basis: auto;
-  }
+  } */
+
+
+  /* glow effect */
 
   .item .card-header {
     border-radius: 8px;
@@ -537,10 +542,12 @@ main {
   .item:hover .card-header {
     box-shadow: inset 0px 0px 11px
   var(--header-background), 0 0 20px
-  var(--header-color);
+  var(--backgroud-color);
   }
 
 
+
+  /* project containers */
     .item1 { grid-area: Porject1; }
     .item2 { grid-area: Porject2; }
     .item3 { grid-area: Porject3; }
