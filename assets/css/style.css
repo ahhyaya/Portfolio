@@ -11,7 +11,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    background-color: var(--lightbackgroud-color);
+    /* background-color: var(--lightbackgroud-color); */
     font-family: 'Roboto', sans-serif;
     color: var(--hightlight-color);
 }
@@ -263,11 +263,11 @@ nav a:hover {
 
 
 
-.area{
+/* .area{
     background: var(--header-backgroud);  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8); 
     width: 100%;
- }
+ } */
 
 .circles{
     position: absolute;
@@ -384,13 +384,46 @@ nav a:hover {
 
 }
 
+/* block */
 
 main {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .products {
+  /* .container {
+    height: 400px;
+    background-color: #eebefa;
+  }
+
+  .item {
+    height: 100%;
+  }
+  
+  .item1 {
+    background-color: #eccc68;
+  }
+  .item2 {
+    background-color: #a6c1fa;
+  }
+  .item3 {
+    background-color: #fa7d90;
+  }
+  .item4 {
+    background-color: #b0ff70;
+  }
+  /* 清除浮动 */
+  /* .clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }  */
+
+
+  /* boxes */
+  .category {
     flex: 1;
     background-color: var(--alternate-color);
     padding: 50px;
@@ -399,8 +432,41 @@ main {
     justify-content: space-evenly;
   }
   
-  .card {
-    border-style:dashed;
+  .card1{
+    position:absolute;
+    left: 5px;
+    bottom:12%;
+    /* border-style:dotted; */
+    border-width: 1px;
+    border-radius: var(--standard-border-radius);
+    padding: 0;
+    flex: 0 0 300px;
+    /* transform: rotate(8deg); */
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+    width: 25%;
+    height: 54%;
+  }
+
+  .card2{
+    position:absolute;
+    bottom:5px;
+    /* border-style:dotted; */
+    border-width: 1px;
+    border-radius: var(--standard-border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    /* transform: rotate(8deg); */
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+    width: 100%;
+    height: 10%;
+  }
+
+  /* .card3{
+    position:relative;
+    right: 5px;
+    border-style:dotted;
     border-width: 1px;
     border-radius: var(--standard-border-radius);
     padding: 10px;
@@ -408,6 +474,23 @@ main {
     transform: rotate(8deg);
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
+    height: 30%;
+  } */
+
+  .card4{
+    position:absolute;
+    right: 5px;
+    bottom:12%;
+    border-style:dotted;
+    border-width: 1px;
+    border-radius: var(--standard-border-radius);
+    padding: 5px;
+    flex: 0 0 300px;
+    /* transform: rotate(8deg); */
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+    height: 54%;
+    width: 70%;
   }
   
   .card > header {
