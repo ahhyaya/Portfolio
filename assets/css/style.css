@@ -577,4 +577,27 @@ main {
         color:var(--header-color);
         font-family: fantasy;
     }
- 
+
+    .item1 {
+        background-image: url("https://wallpaperaccess.com/full/1930875.jpg");  
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .item2 {
+        background-image: url("https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");  
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .item3 {
+        background-image: url("https://cdn.w600.comps.canstockphoto.com/project-drawing_csp24022541.jpg");  
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .item4 {
+        background-image: url("https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1039&q=80");  
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
