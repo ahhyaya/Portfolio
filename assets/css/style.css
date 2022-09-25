@@ -567,11 +567,12 @@ main {
     .grid-container > div {
       background-color:var();
       text-align: left;
-      padding: 20px 0 0 20px;
+      padding: 40px 0 0 40px;
       font-size: 30px;
     }
 
     .item {
+        margin-top: 5px;
         padding: 10px;
         border: 1px dotted black;
         color:var(--header-color);
@@ -583,24 +584,28 @@ main {
         background-image: url("https://wallpaperaccess.com/full/1930875.jpg");  
         background-repeat: no-repeat;
         background-size: cover;
+        margin:30px 10px 10px 20px;
     }
 
     .item2 {
         background-image: url("https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");  
         background-repeat: no-repeat;
         background-size: cover;
+       margin: 30px 30px 10px 0;
     }
 
     .item3 {
         background-image: url("https://cdn.w600.comps.canstockphoto.com/project-drawing_csp24022541.jpg");  
         background-repeat: no-repeat;
         background-size: cover;
+        margin:0px 10px 10px 20px;
     }
 
     .item4 {
         background-image: url("https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1039&q=80");  
         background-repeat: no-repeat;
         background-size: cover;
+        margin: 0px 30px 10px 0;
     }
 
     /* .button {
