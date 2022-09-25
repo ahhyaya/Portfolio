@@ -576,6 +576,7 @@ main {
         border: 1px dotted black;
         color:var(--header-color);
         font-family: fantasy;
+        text-shadow: 5px 5px 10px rgb(10, 11, 9);
     }
 
     .item1 {
@@ -601,3 +602,18 @@ main {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    /* .button {
+        position:absolute;
+        top:0;
+        background-color: #4CAF50; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: top;
+        text-decoration: none;
+        display: inline;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }  */
