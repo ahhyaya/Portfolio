@@ -6,6 +6,17 @@
     --lightbackground-color: rgb(240, 240, 223);
 }
 
+/* .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
+
+  /* .column {
+    display: flex;
+    flex-direction: column;
+  } */
+
 body {
     overflow: hidden;
     height: 100%;
@@ -553,10 +564,14 @@ main {
         var(--hightlight-color);
   }
 
+  /* Overlay Card with Title */
+  /* .project-title {
+    position: relative;
+    margin-top: -40px;
+  } */
 
-
-  /* project containers */
-    .item1 { grid-area: Porject1; }
+  /* project-grid containers */
+    /* .item1 { grid-area: Porject1; }
     .item2 { grid-area: Porject2; }
     .item3 { grid-area: Porject3; }
     .item4 { grid-area: Porject4; }
@@ -572,7 +587,7 @@ main {
       
       gap: 2px;
       background-color:var();
-      /* padding: 1px; */
+      padding: 1px;
       width: 100%;
       position: absolute;
       top:auto;
@@ -584,49 +599,59 @@ main {
       text-align: left;
       padding: 40px 0 0 40px;
       font-size: 30px;
-    }
+    } */
 
+    .flex-container {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        
+        /* align-content:space-around; */
+    }
     .item {
-        margin-top: 5px;
+        margin: 14px 0 0 20px;
         padding: 10px;
         border: 1px dotted black;
         color: rgba(0, 0, 0, 0.798);
         font-family: fantasy;
         font-weight: bolder;
         text-shadow: 10px 7px 5px rgb(10, 11, 9);
+        /* width: 46%; */
+        height:20vh;
+        flex: 0 0 47%;
     }
 
     .item1 {
         background-image: url("https://wallpaperaccess.com/full/1930875.jpg");  
         background-repeat: no-repeat;
         background-size: cover;
-        margin:30px 10px 10px 20px;
+        /* margin:30px 10px 10px 20px; */
     }
 
     .item2 {
         background-image: url("https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");  
         background-repeat: no-repeat;
         background-size: cover;
-       margin: 30px 30px 10px 0;
+       /* margin: 30px 30px 10px 0; */
     }
 
     .item3 {
         background-image: url("https://cdn.w600.comps.canstockphoto.com/project-drawing_csp24022541.jpg");  
         background-repeat: no-repeat;
         background-size: cover;
-        margin:0px 10px 10px 20px;
+        /* margin:0px 10px 10px 20px; */
     }
 
     .item4 {
         background-image: url("https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1039&q=80");  
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 0px 30px 10px 0;
+        /* margin: 0px 30px 10px 0; */
     }
 
-    img{
+    /* img{
         margin-left: 40px;
-    }
+    } */
 
     #contact {
         color: black;
