@@ -166,7 +166,7 @@ a {
 
   .navbar:not(:hover) > .navbar-dropdown {
     padding: 4px 0;
-    background: var(--hightlight-color);
+    background:none;
     z-index: 99;
   }
   
@@ -193,7 +193,7 @@ a {
   }
   
   .navbar-dropdown > *:hover {
-    background: rgba(0,0,0,0.1);
+    background: rgba(165, 155, 155, 0.469);
   }
   
 .navbar:not(:hover) > .navbar-dropdown > * {
@@ -202,7 +202,7 @@ a {
     padding-top: 0;
     padding-bottom: 0;
     margin: 0;
-    color: rgba(25,25,25,0);
+    color:  rgba(165, 155, 155, 0.469);
     transition: 
       0.5s 0.1s height,
       0.5s 0.1s padding,
@@ -470,6 +470,10 @@ main {
     height: 54%;
   }
 
+  main p {
+    margin: 50px;
+  }
+
   .card2{
     position:absolute;
     bottom:5px;
@@ -530,7 +534,7 @@ main {
   
   @media screen and (max-width: 768px) {
     main,
-    nav {
+    nav{
       flex-direction: column;
     }
   }
@@ -622,6 +626,7 @@ main {
         max-height: 100%;
     }
 
+    
     /* project box change larger when hovering */
     .item:hover {
         margin:5px;
