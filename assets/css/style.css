@@ -512,3 +512,12 @@ main {
       flex-direction: column;
     }
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 60%;
+    position: relative;
+    right:18%;
+    margin-top: 25px;
+  }
