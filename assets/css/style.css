@@ -587,9 +587,10 @@ main {
         margin-top: 5px;
         padding: 10px;
         border: 1px dotted black;
-        color:var(--header-color);
+        color: rgba(0, 0, 0, 0.798);
         font-family: fantasy;
-        text-shadow: 5px 5px 10px rgb(10, 11, 9);
+        font-weight: bolder;
+        text-shadow: 10px 7px 5px rgb(10, 11, 9);
     }
 
     .item1 {
@@ -621,7 +622,7 @@ main {
     }
 
     img{
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
     #contact {
