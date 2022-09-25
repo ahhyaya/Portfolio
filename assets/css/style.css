@@ -31,10 +31,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* h5 {
-
-} */
-
 header {
     padding :40px;
     background: var();
@@ -56,13 +52,14 @@ nav {
 
 nav a {
     color: var(--header-background);
-    padding-top:10px;
+    /* padding-top:10px;
     padding-bottom: 10px;
-    padding-inline: 15px;
+    padding-inline: 15px; */
     text-decoration: none;
     text-align: auto;
     margin-bottom: 2px;
     display: flex;
+    padding: 14px 20px;
 }
 
 nav a:hover {
@@ -85,13 +82,14 @@ nav a:hover {
 .navbar-title {
     display: block;
     width: navbar_WIDTH;
-    height: 40px;
-    padding: 12px 0 0;
+    height: 30px;
+    padding: 8px 0 0;
     background: var(--header-background);
     text-align: center;
     color: #ffffff;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-weight:normal;
+    text-shadow: 5px 5px 10px rgb(10, 11, 9);
+    /* text-transform: uppercase; */
     transition: 0.3s background-color;
 }
 
