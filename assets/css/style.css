@@ -612,10 +612,10 @@ main {
         margin: 14px 0 0 20px;
         padding: 10px;
         border: 1px dotted black;
-        color: rgba(0, 0, 0, 0.798);
+        color: var(--header-background);
         font-family: fantasy;
         font-weight: bolder;
-        text-shadow: 10px 7px 5px rgb(10, 11, 9);
+        text-shadow: 8px -5px 4px  rgb(182, 182, 182);
         height:20vh;
         flex: 0 0 47%;
     }
@@ -656,10 +656,9 @@ main {
 
 img{
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 5px;
     width:60%;
     }
-
          
 
 /* img:active{
