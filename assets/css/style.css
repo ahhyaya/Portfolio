@@ -615,6 +615,15 @@ main {
         margin: 0px 30px 10px 0;
     }
 
+    #contact {
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        margin-left: 80px;
+        /* text-decoration: underline; */
+        font-style: oblique;
+    }
+
     /* .button {
         position:absolute;
         top:0;
