@@ -1,6 +1,6 @@
 :root {
     --backgroud-color: #e6d6bd;
-    --hightlight-color: ##d8a47f;
+    --hightlight-color: #d8a47f;
     --header-background: #e6d6bd;
     --header-color: rgb(58, 42, 145);
     --lightbackground-color: rgb(240, 240, 223);
@@ -548,9 +548,9 @@ main {
   
   .item:hover,
   .item:hover .card-header {
-    box-shadow: inset 0px 0px 11px
-  var(--header-background), 0 0 20px
-  var(--backgroud-color);
+    box-shadow: inset 0px 0px 25px 
+    var(--backgroud-color), 0 0 25px
+        var(--hightlight-color);
   }
 
 
