@@ -605,9 +605,8 @@ main {
         display:flex;
         flex-direction:row;
         flex-wrap: wrap;
-        
-        /* align-content:space-around; */
     }
+    
     .item {
         margin: 14px 0 0 20px;
         padding: 10px;
@@ -616,9 +615,14 @@ main {
         font-family: fantasy;
         font-weight: bolder;
         text-shadow: 10px 7px 5px rgb(10, 11, 9);
-        /* width: 46%; */
         height:20vh;
         flex: 0 0 47%;
+    }
+
+    /* project box change larger when hovering */
+    .item:hover {
+        margin:5px;
+        transform: scale(1.1,1.1);
     }
 
     .item1 {
@@ -649,8 +653,17 @@ main {
         /* margin: 0px 30px 10px 0; */
     }
 
-    /* img{
-        margin-left: 40px;
+/* img{
+    margin-left: 40px;
+    width:30%;
+    height:30%;
+    }
+
+         
+
+img:active{
+    margin:70px;
+    transform:scale(2,2);
     } */
 
     #contact {
