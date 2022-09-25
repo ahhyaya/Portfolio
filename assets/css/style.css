@@ -535,9 +535,9 @@ main {
   
   .item:hover,
   .item:hover .card-header {
-    box-shadow: inset 0px 0px 8px
-  rgba(232, 102, 236, 1), 0 0 15px
-  rgba(232, 102, 236, 1);
+    box-shadow: inset 0px 0px 11px
+  var(--header-background), 0 0 20px
+  var(--header-color);
   }
 
 
