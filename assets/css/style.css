@@ -518,6 +518,60 @@ main {
     grid-template-columns: auto auto auto auto;
     height: 60%;
     position: relative;
-    right:18%;
     margin-top: 25px;
+    justify-items: center;
   }
+
+ .flex-container {
+    display: flex;
+    flex-basis: auto;
+  }
+
+  .item .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-
+  out;
+  }
+  
+  .item:hover,
+  .item:hover .card-header {
+    box-shadow: inset 0px 0px 8px
+  rgba(232, 102, 236, 1), 0 0 15px
+  rgba(232, 102, 236, 1);
+  }
+
+
+    .item1 { grid-area: Porject1; }
+    .item2 { grid-area: Porject2; }
+    .item3 { grid-area: Porject3; }
+    .item4 { grid-area: Porject4; }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas:
+      'Porject1 Porject1 Porject2 Porject2'
+      'Porject1 Porject1 Porject2 Porject2'
+      'Porject3 Porject3 Porject4 Porject4'
+      'Porject3 Porject3 Porject4 Porject4';
+      
+      gap: 2px;
+      background-color:var();
+      /* padding: 1px; */
+      width: 100%;
+      position: absolute;
+      top:auto;
+      height: 100%;
+    }
+    
+    .grid-container > div {
+      background-color:var(--header-background);
+      text-align: left;
+      padding: 20px 0 0 20px;
+      font-size: 30px;
+    }
+
+    img {
+        height: 90%;
+        width: 60%;
+    }
