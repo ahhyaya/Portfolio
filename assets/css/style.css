@@ -2,6 +2,7 @@
     --backgroud-color: #e6d6bd;
     --hightlight-color: #fbe2e2c3;
     --header-background: #e6d6bd;
+    --header-color: rgb(58, 42, 145);
 }
 
 body {
@@ -33,11 +34,11 @@ h1 {
 
 header {
     padding :40px;
-    background: var();
+    background: var(--header-background);
     /* color:rgb(103, 12, 188); */
-    color:var(--header-background);
+    color: var(--header-color);
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
     text-shadow: 5px 5px 10px rgb(10, 11, 9);
 }
 
@@ -72,6 +73,7 @@ nav a:hover {
     min-width: 300px;
   }
    */
+   
 .navbar {
     display: block;
     position: relative;
@@ -84,7 +86,7 @@ nav a:hover {
     width: navbar_WIDTH;
     height: 30px;
     padding: 8px 0 0;
-    background: var(--header-background);
+    background: none;
     text-align: center;
     color: #ffffff;
     font-weight:normal;
@@ -97,7 +99,7 @@ nav a:hover {
     content: "";
     display: block;
     height: 0;
-    border-top: 5px solid #9dc852;
+    border-top: auto solid #9dc852;
     border-left: (navbar_WIDTH / 2) solid transparent;
     border-right: (navbar_WIDTH / 2) solid transparent;
     border-bottom: 0 solid #dddddd;
@@ -113,8 +115,9 @@ nav a:hover {
   .navbar-title:hover { 
     background: var(--backgroud-color);
    }
+
   .navbar-title:hover:before { 
-    border-top-color: var(--hi); 
+    border-top-color: var(); 
 }
 
   .navbar-title:after {
