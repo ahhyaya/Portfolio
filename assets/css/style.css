@@ -7,9 +7,9 @@
 }
 
 body {
-    /* overflow: hidden;
-    height: 100%;
-    width: 100%; */
+    /* overflow: hidden;  */
+    /* height: 100%; */
+    /* width: 100%; */
     margin: 0 auto;
     /* background-color: var(--lightbackgroud-color); */
     font-family: 'Roboto', sans-serif;
@@ -217,7 +217,7 @@ nav {
     display: flex;
     background-color: #d8a47f;
     border-radius: 15px 0 15px 0;
-    width: 50%;
+    width: auto;
     margin-top: 22px;
     margin-inline: auto;
 }
@@ -280,8 +280,8 @@ nav a:hover {
 
   .footer{
     display:grid;
-    position:fixed;
-    bottom:0px;
+    position:relative;
+    bottom: 0;
     /* border-style:dotted; */
     /* border-width: 1px;
     border-radius: var(--standard-border-radius); */
@@ -291,9 +291,79 @@ nav a:hover {
     /* box-shadow: 10px 10px 5px #aaaaaa; */
     /* margin: 20px; */
     width: 100%;
-    height: 6%;
+    /* height: auto; */
   }
+  * {
+    box-sizing: border-box;
+    font-family: ’Lato’, sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background-color: var(--backgroud-color);
+    color: #bbb;
+    line-height: 1.5;
+}
 
+footer a {
+    text-decoration: none;
+    color: rgb(240, 240, 223);
+}
+a:hover {
+    text-decoration: underline;
+}
+.ft-title {
+    color: #fff;
+    font-family: ’Merriweather’, serif;
+    font-size: 1rem;
+    /* padding-bottom: 0.625rem; */
+}
+
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem ;
+} */
+
+/* .ft-social {
+  padding: 0 1.875rem 1.25rem;
+} */
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid; 
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.ft-legal {
+  /* padding: 0.9375rem 1.875rem; */
+  background-color:var(--hightlight-color);
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+  flex: 1;       /* same as flex-grow: 1; */
+}
   /* .card3{
     position:relative;
     right: 5px;
@@ -328,17 +398,17 @@ nav a:hover {
     border-radius: var(--standard-border-radius) var(--standard-border-radius) 0px 0px;
     padding: 20px;
   }
-  .footer > header {
+  /* .footer > header {
     border-radius: var(--standard-border-radius) var(--standard-border-radius) 0px 0px;
     padding: 5px;
-  }
+  } */
   
   .card > p {
     text-align: center;
   }
-  .footer > p {
+  /* .footer > p {
     text-align: center;
-  }
+  } */
   
   .card > img {
     width: 100%;
@@ -361,43 +431,6 @@ nav a:hover {
     var(--backgroud-color), 0 0 25px
         var(--hightlight-color);
   }
-
-  /* Overlay Card with Title */
-  /* .project-title {
-    position: relative;
-    margin-top: -40px;
-  } */
-
-  /* project-grid containers */
-    /* .item1 { grid-area: Porject1; }
-    .item2 { grid-area: Porject2; }
-    .item3 { grid-area: Porject3; }
-    .item4 { grid-area: Porject4; }
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-areas:
-      'Porject1 Porject1 Porject2 Porject2'
-      'Porject1 Porject1 Porject2 Porject2'
-      'Porject3 Porject3 Porject4 Porject4'
-      'Porject3 Porject3 Porject4 Porject4';
-      
-      gap: 2px;
-      background-color:var();
-      padding: 1px;
-      width: 100%;
-      position: absolute;
-      top:auto;
-      height:84%;
-    }
-    
-    .grid-container > div {
-      background-color:var();
-      text-align: left;
-      padding: 40px 0 0 40px;
-      font-size: 30px;
-    } */
 
     .flex-container {
         display:flex;
@@ -496,3 +529,21 @@ img{
         height: 60px;
       }
     }
+
+    @media only screen and (min-width: 29.8125rem /*477px*/) {
+      .ft-main {
+          justify-content: space-around;
+      }
+  }
+  @media only screen and (min-width: 77.5rem /*1240px*/ ) {
+      .ft-main {
+          justify-content: space-evenly;
+      }
+  }
+
+  @media screen and (max-height: 2022px) {
+    body{
+      width: auto;
+      height: 200%;
+    }
+  }
