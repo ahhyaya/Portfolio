@@ -20,7 +20,7 @@
     <nav>
         <a href="#click" class="navbar">
             <div id="item1"></div>
-        <h5 class="navbar-title">About Me</h5>   
+        <h5 class="navbar-title" href="#about-me">About Me</h5>   
         <ul class="navbar-dropdown">
           <!-- <li>food</li>
           <li>animals</li>
@@ -42,10 +42,10 @@
         <a href="#click" class="navbar">
         <h5 class="navbar-title">Contact Me</h5> 
         <ul class="navbar-dropdown">
-            <li>Phone</li>
-            <li>Email</li>
-            <li>Github</li>
-            <li>Slack</li>
+            <li href="#contactinfo">Phone</li>
+            <li href="#contactinfo">Email</li>
+            <li href="#contactinfo">Github</li>
+            <li href="#contactinfo">Slack</li>
         </ul>
         </a>
         <a href="#click" class="navbar">
@@ -61,7 +61,7 @@
         <!-- boxes -->
         <div class="category">
             <section class="card card1">
-              <header class="subtitle">About Me</header>
+              <header class="subtitle" id="about-me">About Me</header>
               <p>about me details</p>
             </section>
             <section class="card card4">
@@ -91,37 +91,30 @@
             </section>
     </main>
 
-      <!-- <footer class="footer"> -->
-        <!-- <header class="subtitle">Contact Me
-          <a href="#" id ="contact">Phone Number: 123-456-789</a>
-          <a href="#" id ="contact">Email: toruig59@gmail.com</a>
-          <a href="#" id ="contact">Github: ahhyaya</a>
-          <a href="#" id ="contact">Slack: please add me by my email</a>
-        </header> -->
-
         <!-- Footer main -->
 
       <footer>
       <section class="ft-main">
         <div class="ft-main-item">
           <h2 class="ft-title">About Me</h2>
+          <li><a href="#about-me">Check it out</a></li>
         </div>
         <div class="ft-main-item">
           <h2 class="ft-title">Work</h2>
           <ul>
-            <li><a href="#">Project1</a></li>
-            <li><a href="#">Project2</a></li>
-            <li><a href="#">Project3</a></li>
-            <li><a href="#">Project4</a></li>
+            <li><a href="#project1">Project1</a></li>
+            <li><a href="#project2">Project2</a></li>
+            <li><a href="#project3">Project3</a></li>
+            <li><a href="#project4">Project4</a></li>
           </ul>
         </div>
         <div class="ft-main-item">
-          <h2 class="ft-title">Contact</h2>
+          <h2 class="ft-title" id="contactinfo">Contact</h2>
           <ul>
-            <li><a href="#">Phone Number</a></li>
-            <li><a href="#">Email</a></li>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Slack</a></li>
+            <li><a>Phone Number: 123-456789</a></li>
+            <li><a>Email: toruig59@gmail.com</a></li>
+            <li><a>Github: ahhyaya</a></li>
+            <li><a>Slack: please add me by email</a></li>
           </ul>
         </div>
         <div class="ft-main-item">
@@ -145,8 +138,7 @@
       <!-- Footer legal -->
       <section class="ft-legal">
         <ul class="ft-legal-list">
-          <li><a href="#">Ruihan Gao &amp; Portfolio</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Ruihan Gao ❤️ Portfolio</a></li>
           <li>&copy; 2022 UCB BootCaom</li>
         </ul>
       </section>
