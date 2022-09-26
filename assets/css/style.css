@@ -6,12 +6,12 @@
     --lightbackground-color: rgb(240, 240, 223);
 }
 
+* {
+  box-sizing: border-box;
+} 
+
 body {
-    /* overflow: hidden;  */
-    /* height: 100%; */
-    /* width: 100%; */
     margin: 0 auto;
-    /* background-color: var(--lightbackgroud-color); */
     font-family: 'Roboto', sans-serif;
     color: var(--hightlight-color);
 }
@@ -25,38 +25,43 @@ h1 {
 header {
     padding :50px;
     background: var(--header-background);
-    /* color:rgb(103, 12, 188); */
     color: var(--header-color);
     text-align: center;
-    /* width: 100%; */
     text-shadow: 5px 5px 10px rgb(10, 11, 9);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.subtitle{
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: bolder;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-* {
-    box-sizing: border-box;
-  } 
-  
-  /* navbar_WIDTH:150px; */
+nav {
+  display: flex;
+  background-color: #d8a47f;
+  border-radius: 15px 15px 15px 15px;
+  width: auto;
+  margin-top: 22px;
+  margin-inline: auto;
+}
+
+nav a {
+  color: var(--header-background);
+  text-decoration: none;
+  text-align: auto;
+  /* display: flex; */
+  margin: 0 30px 0 30px;
+}
+
+nav a:hover {
+  background-color: var();
+}
 
 .navbar {
-    display: block;
-    position: relative;
-    cursor: pointer;
-    /* border: none; */
-  }
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
 
 .navbar-title {
     display: block;
@@ -68,7 +73,6 @@ a {
     color: #ffffff;
     font-weight:normal;
     text-shadow: 5px 5px 10px rgb(10, 11, 9);
-    /* text-transform: uppercase; */
     transition: 0.3s background-color;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
@@ -90,14 +94,10 @@ a {
       0.2s 0.2s border-top ease-out,
       0.3s border-top-color;
   }
-  
-/* .navbar-title:hover { 
-    background: var();
-   }
 
 .navbar-title:hover:before { 
     border-top-color: var(); 
-} */
+} 
 
 .navbar:hover > .navbar-title:before {
     border-top-width: 0;
@@ -105,7 +105,6 @@ a {
       0.2s border-top-width ease-in,
       0.3s border-top-color;
   }
-
 
 .navbar-title:after {
     content: "";
@@ -121,7 +120,7 @@ a {
     transition: 0.2s border-bottom ease-in;
   }
   
-  .navbar:hover > .navbar-title:after {
+.navbar:hover > .navbar-title:after {
     border-bottom-width: 5px;
     transition: 0.2s 0.2s border-bottom-width ease-out;
   }
@@ -130,7 +129,7 @@ a {
     min-width: 100%;
     padding: 15px 0;
     position: relative;
-    /* background: #ebebeb; */
+    background: none;
     z-index: 100;
     transition:
       0.5s padding,
@@ -153,20 +152,21 @@ a {
     transition: 0.5s border-top;
   }
 
-  .navbar:not(:hover) > .navbar-dropdown {
+.navbar:not(:hover) > .navbar-dropdown {
     padding: 4px 0;
     background:none;
     z-index: 99;
   }
   
-  .navbar:not(:hover) > .navbar-dropdown:after {
+.navbar:not(:hover) > .navbar-dropdown:after {
     border-top-color: var(--hightlight-color);
   }
+
   .navbar:not(:hover) > .navbar-title:after {
     border-bottom-color: var(--backgroud-color);
   }
 
-  .navbar-dropdown > * {
+.navbar-dropdown > * {
     overflow: hidden;
     height: 30px;
     padding: 5px 10px;
@@ -180,11 +180,12 @@ a {
       0.2s background-color;
   }
   
-  .navbar-dropdown > *:hover {
-    background: rgba(165, 155, 155, 0.469);
+.navbar-dropdown > *:hover {
+    background: rgba(236, 232, 232, 0.165);
+    border-radius: 15px;
   }
   
-  .navbar:not(:hover) > .navbar-dropdown > * {
+.navbar:not(:hover) > .navbar-dropdown > * {
     visibility: hidden;
     height: 0;
     padding-top: 0;
@@ -212,40 +213,19 @@ a {
     margin-left: 0;
   } */
 
-nav {
-    display: flex;
-    background-color: #d8a47f;
-    border-radius: 15px 0 15px 0;
-    width: auto;
-    margin-top: 22px;
-    margin-inline: auto;
-    
-}
-
-nav a {
-    color: var(--header-background);
-    /* padding-top:10px;
-    padding-bottom: 10px;
-    padding-inline: 15px; */
-    text-decoration: none;
-    text-align: auto;
-    margin-bottom: 2px;
-    display: flex;
-    padding: 14px 20px;
-}
-
-nav a:hover {
-    background-color: var();
-  }
-
-/* block */
-
-/* main {
-    display: flex;
-    flex-wrap: wrap;
-  } */
 
   
+
+  .boxtitle{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+  
+
 
 
   /* main body structure */
