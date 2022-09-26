@@ -4,6 +4,7 @@
     --header-background: #e6d6bd;
     --header-color: rgb(58, 42, 145);
     --lightbackground-color: rgb(240, 240, 223);
+    --standard-border-radius: 15px 15px 0 0;
 }
 
 * {
@@ -23,7 +24,7 @@ h1 {
 }
 
 header {
-    padding :50px;
+    padding :30px;
     background: var(--header-background);
     color: var(--header-color);
     text-align: center;
@@ -216,12 +217,13 @@ nav a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: bolder;
+    border-radius: var(--standard-border-radius);
 }
 
-.menu > header {
+/* .menu > header {
   border-radius: var(--standard-border-radius) var(--standard-border-radius) 0px 0px;
   padding: 20px;
-}
+} */
 
 .menu > p {
   text-align: center;
@@ -237,7 +239,7 @@ nav a:hover {
     bottom:12%;
     border-style:dotted;
     border-width: 1px;
-    border-radius: var(--standard-border-radius);
+    /* border-radius: var(--standard-border-radius); */
     padding: 5px;
     box-shadow: 10px 10px 5px #aaaaaa;
     margin-bottom: 10%;
@@ -251,7 +253,7 @@ nav a:hover {
     bottom:12%;
     border-style:dotted;
     border-width: 1px;
-    border-radius: var(--standard-border-radius);
+    /* border-radius: var(--standard-border-radius); */
     padding: 5px;
     box-shadow: 10px 10px 5px #aaaaaa;
     margin-bottom: 10%;
@@ -290,7 +292,7 @@ ul {
 footer {
     background-color: var(--backgroud-color);
     color: #bbb;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 footer a {
@@ -304,7 +306,7 @@ a:hover {
     color: #fff;
     font-family: ’Merriweather’, serif;
     font-size: 1rem;
-    /* padding-bottom: 0.625rem; */
+    padding-bottom: 0.625rem;
 }
 
 .ft-main {
@@ -312,11 +314,10 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
 }
-/* .ft-main-item {
+.ft-main-item { 
   padding: 1.25rem;
   min-width: 12.5rem ;
-} */
-
+} 
 
 .ft-info {
   /* padding: 0.9375rem 1.875rem; */
@@ -335,13 +336,6 @@ a:hover {
 .ft-info-list li:nth-last-child(2) {
   flex: 1;       /* same as flex-grow: 1; */
 }
-
-
-
-
-
-
-
 
 
   /* glow effect */
