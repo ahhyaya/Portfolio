@@ -359,6 +359,7 @@ a:hover {
         flex-wrap: wrap;
         justify-content: flex-start;
         min-height: 50vh;
+        margin-left: 30px;
     }
 
     .item {
