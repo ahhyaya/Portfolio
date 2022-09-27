@@ -150,12 +150,10 @@ nav a:hover {
   }
 
 .menu-content1{
-    /* position:absolute; */
     left: 5px;
     bottom:12%;
     border-style:dotted;
     border-width: 1px;
-    /* border-radius: var(--standard-border-radius); */
     padding: 5px;
     box-shadow: 10px 10px 5px #aaaaaa;
     margin-bottom: 10%;
@@ -174,12 +172,10 @@ nav a:hover {
 }
 
 .menu-content2{
-    /* position:absolute; */
     right: 5px;
     bottom:12%;
     border-style:dotted;
     border-width: 1px;
-    /* border-radius: var(--standard-border-radius); */
     padding: 5px;
     box-shadow: 10px 10px 5px #aaaaaa;
     margin-bottom: 10%;
@@ -187,8 +183,9 @@ nav a:hover {
   }
 
 .menu-content2 img{
-    margin-left: 40px;
-    margin-top: 3px;
+    margin: 0;
+    /* margin-left: 40px;
+    margin-top: 3px; */
     width:auto;
     height: auto;
     max-width: 100%;
@@ -224,7 +221,6 @@ main p {
     font-weight: bolder;
     text-shadow: 8px -5px 4px  rgb(182, 182, 182);
     height: 25vh;
-     /* flex: 0 0 47%; */
     max-width: 100%;
     max-height: 100%;
     min-width: 25vw;
@@ -235,7 +231,6 @@ main p {
     background-image: url("https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin:30px 10px 10px 20px; */
   }
 
     /* project box change larger when hovering */
@@ -244,7 +239,7 @@ main p {
     transform: scale(1.1,1.1);
   }
 
-  /* glow effect */
+     /* glow effect */
 .project .menu-header {
     border-radius: 8px;
     transition: all 0.5s ease-in-
@@ -258,6 +253,7 @@ main p {
     var(--hightlight-color);
   }
 
+  /* footer */
 footer {
     background-color: var(--backgroud-color);
     color: #bbb;
@@ -293,7 +289,6 @@ a:hover {
   } 
 
 .ft-info {
-    /* padding: 0.9375rem 1.875rem; */
     background-color:var(--hightlight-color);
   }
 
@@ -321,7 +316,6 @@ flex: 1;      }
 
     @media screen and (max-width: 768px) {
       .menu{
-        /* display:flex; */
         flex-direction: column;
       }
       .menu-content1{
@@ -342,9 +336,3 @@ flex: 1;      }
           justify-content: space-evenly;
       }
     }
-
-    /* @media screen and (max-width: 768px) {
-      body{
-        width: auto;
-        /* height: 200%; */
-      
