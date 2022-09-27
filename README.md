@@ -9,10 +9,10 @@
 
 ![webpage](/assets/images/readme1.png)
 ![webpage](/assets/images/readme2.png)
-![webpage](/assets/images/readme5.png)
 
 
-- mobile looks
+### mobile looks
+<br>
 
 ![webpage](/assets/images/readmem1.png)
 ![webpage](/assets/images/readmem2.png)
@@ -20,24 +20,27 @@
 ![webpage](/assets/images/readmem4.png)
 
 ## Features
+<br>
 
-- Hover glow and bigger
+### Hover glow and bigger
 
 ![webpage](/assets/images/readme3.png)
 
-- Hover dropdown with click jump
+
+### Hover dropdown with click jump
 
 ![webpage](/assets/images/readme4.png)
 
-- Cost Management
-
-Adapt to both computer and mobile device 
+### Adapt to both computer and mobile device 
 
 ---
+
 ## Project Status
-Project is: in progressing, new updates are coming soon!
+
+### Project is: in progressing, new updates are coming soon!
 
 ## Contact
+<br>
 Created by [Ruihan Gao] - feel free to contact me!
 
 Email: toruig59@gmail.com
