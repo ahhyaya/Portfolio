@@ -7,36 +7,39 @@
 
 <br>
 
-![webpage](/images/webpage.jpg)
+![webpage](/assets/images/readme1.png)
+![webpage](/assets/images/readme2.png)
+![webpage](/assets/images/readme5.png)
 
+
+- mobile looks
+
+![webpage](/assets/images/readmem1.png)
+![webpage](/assets/images/readmem2.png)
+![webpage](/assets/images/readmem3.png)
+![webpage](/assets/images/readmem4.png)
 
 ## Features
 
-- Lead Generation
+- Hover glow and bigger
 
-![feature1](/images/feature1.png)
-- Brand Awareness
+![webpage](/assets/images/readme3.png)
 
-![feature2](/images/feature2.png)
+- Hover dropdown with click jump
+
+![webpage](/assets/images/readme4.png)
+
 - Cost Management
 
-![feature3](/images/feature3.png)
-
-## Screenshots
-
-![service#1](/images/service%231.jpg)
-![service#2](/images/service%232.jpg)
-![service#3](/images/service%233.jpg)
-
-
+Adapt to both computer and mobile device 
 
 ---
 ## Project Status
-Project is: _completed_ 
+Project is: in progressing, new updates are coming soon!
 
 ## Contact
 Created by [Ruihan Gao] - feel free to contact me!
 
 Email: toruig59@gmail.com
 
-Project Link: [https://ahhyaya.github.io/Code-refactor/](https://ahhyaya.github.io/Code-refactor/)
+Project Link: [https://github.com/ahhyaya](https://github.com/ahhyaya)
