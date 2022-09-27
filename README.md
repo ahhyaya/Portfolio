@@ -45,4 +45,4 @@ Created by [Ruihan Gao] - feel free to contact me!
 
 Email: toruig59@gmail.com
 
-Project Link: [https://github.com/ahhyaya](https://github.com/ahhyaya)
+Project Link: [https://ahhyaya.github.io/Portfolio/](https://ahhyaya.github.io/Portfolio/)
