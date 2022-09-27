@@ -163,6 +163,17 @@ nav a:hover {
     min-height: 100%;
   }
 
+.menu-content1 img {
+
+  margin: 30px;
+  width:80%;
+  height: 20%;
+  max-width: 100%;
+  max-height: 100%;
+  border: 6px groove rgb(234, 222, 222);
+
+}
+
 .menu-content2{
     /* position:absolute; */
     right: 5px;
@@ -177,8 +188,10 @@ nav a:hover {
   }
 
 main p {
-    margin-top: 50px;
-    text-align: center;
+    margin: 50px 10px 0 10px;
+    text-align: justify;
+    line-height:30px;
+    font-style: oblique;
   }
 
 .work-content{
@@ -237,7 +250,7 @@ main p {
     var(--hightlight-color);
   }
 
-img{
+.menu-content2 img{
     margin-left: 40px;
     margin-top: 3px;
     width:60%;
@@ -307,12 +320,17 @@ flex: 1;      }
         flex-direction: column;
       }
     }
-
+/* 
     @media screen and (max-width: 768px) {
       .item{
-        /* width: 5vw;
-        height: 60px; */
         max-width: 100%;
+      }
+    } */
+
+    @media screen and (max-width: 768px) {
+      .menu{
+        /* display:flex; */
+        flex-direction: column;
       }
     }
 
